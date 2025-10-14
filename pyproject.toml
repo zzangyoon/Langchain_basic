@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "dotenv>=0.9.9",
     "easyocr>=1.7.2",
+    "faiss-cpu>=1.12.0",
     "fpdf>=1.7.2",
     "jupyter>=1.1.1",
     "langchain>=0.3.27",
@@ -17,4 +18,7 @@ dependencies = [
     "langchain-openai>=0.3.33",
     "pymupdf>=1.26.5",
     "pypdf>=6.1.1",
+    "pytesseract>=0.3.13",
+    "rich>=14.2.0",
+    "unstructured[local-inference,pdf]>=0.18.15",
 ]
