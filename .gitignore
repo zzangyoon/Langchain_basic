@@ -8,3 +8,5 @@
 # store
 vectorStore/*
 !vectorStore/*.ipynb
+
+langchain_practice/
